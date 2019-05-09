@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; background:#f7e5bb;}
+
+
+.mat-card:not([class*=mat-elevation-z]){box-shadow: none;}
+.mat-bottom-sheet-container{
+  padding:0;
+  overflow: hidden;
+  background:#f7e5bb;
+  font-family: Merriweather;
+  .mat-card{
+    padding-left:0;
+    padding-right:0;
+    overflow: hidden;
+    width:100%;
+    text-align: center;
+    background:#f7e5bb;
+    font-family: Merriweather;
+    .mat-card-header {
+      text-align: center;
+      width: 100%;
+      background:#f7e5bb;
+      .mat-card-header-text {
+        background:#f7e5bb;
+        text-align: center;
+        width: 100%;
+        .mat-card-title {
+          font-family: flower-power;
+          text-align: center;
+          width: 100%;
+          background:#f7e5bb;
+        }
+      }
+    }
+    .mat-card-content{
+        font-family: Merriweather;
+        background:#f7e5bb;
+      span{
+        padding-left:5px;
+        padding-right:5px;
+        font-family: Merriweather;
+        background:#f7e5bb;
+      }
+      }
+    .mat-card-actions{
+      font-family: Merriweather;
+      background:#f7e5bb;
+      button{
+        font-family: Merriweather;
+        background:#f7e5bb;
+      }
+      .mat-checkbox{
+        font-family: Merriweather;
+        background: #f7e5bb;
+        label {
+          font-family: Merriweather;
+          background: #f7e5bb;
+
+          .mat-checkbox-label {
+            label {font-family: Merriweather;
+              background: #f7e5bb;}
+            span{font-family: Merriweather;
+              background: #f7e5bb;}
+            font-family: Merriweather;
+            background: #f7e5bb;
+          }
+        }
+      }
+    }
+
+  }
+}

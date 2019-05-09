@@ -28,5 +28,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 "build":"ng build --prod --output-hashing=none",
-"package":" cat dist/angular-project/{polyfills,runtime,main}.js > ./package.js",
+"package":" cat dist/verify cat ./{polyfills,runtime,main}.js > ./package.js  ",
 "bundle":"npm run build && npm run package"

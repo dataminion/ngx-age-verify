@@ -30,3 +30,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 "build":"ng build --prod --output-hashing=none",
 "package":" cat dist/verify cat ./{polyfills,runtime,main}.js > ./package.js  ",
 "bundle":"npm run build && npm run package"
+
+To use this bundle simply upload the javascript file and add the following snippet to the footer of your site
+
+```html
+<app-age-verify></app-age-verify>
+<script type="text/javascript" src="/s/ngx-age-verify-v0.1.0.min.js">
+```
